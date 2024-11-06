@@ -1,0 +1,9 @@
+@media (min-width: 960px) {
+  .hide-on-large {
+    display: none !important;
+  }
+}
+
+.top-most {
+  z-index: 99;
+}

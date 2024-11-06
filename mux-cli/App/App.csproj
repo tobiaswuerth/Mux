@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>ch.wuerth.tobias.mux.App</AssemblyName>
+    <RootNamespace>ch.wuerth.tobias.mux.App</RootNamespace>
+    <PackageLicenseUrl>https://github.com/tobiaswuerth/mux-cli/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>Tobias Würth</Copyright>
+    <PackageProjectUrl>https://github.com/tobiaswuerth/mux-cli</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tobiaswuerth/mux-cli</RepositoryUrl>
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PluginCleanup\PluginCleanup.csproj" />
+    <ProjectReference Include="..\plugins\PluginAcoustId\PluginAcoustId.csproj" />
+    <ProjectReference Include="..\plugins\PluginChromaprint\PluginChromaprint.csproj" />
+    <ProjectReference Include="..\plugins\PluginImport\PluginImport.csproj" />
+    <ProjectReference Include="..\plugins\PluginMusicBrainz\PluginMusicBrainz.csproj" />
+    <ProjectReference Include="..\plugins\PluginUserMgmt\PluginUserMgmt.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ch.wuerth.tobias.mux.Core" Version="1.3.2" />
+    <PackageReference Include="clipr" Version="1.6.1" />
+  </ItemGroup>
+
+</Project>

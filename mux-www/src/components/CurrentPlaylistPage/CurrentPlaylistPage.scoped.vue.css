@@ -1,0 +1,39 @@
+.playlist-item:after {
+  content: '';
+  height: 1px;
+  background: rgba(0, 0, 0, .17);
+  position: absolute;
+  bottom: 0;
+  left: 77px;
+  right: 0;
+}
+
+.checkbox {
+  margin-right: 26px !important;
+  margin-left: 15px !important;
+}
+
+.md-list-item-text {
+  word-break: break-word !important;
+}
+
+.play-button {
+  margin-right: 15px;
+}
+
+.sortable-chosen {
+  background-color: rgba(68, 138, 255, .17);
+}
+
+.float-right {
+  float: right;
+}
+
+.draggable {
+  margin-right: 15px !important;
+  margin-bottom: 2px !important;
+}
+
+.header-space {
+  margin-bottom: 20px;
+}

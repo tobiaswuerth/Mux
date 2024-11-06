@@ -1,0 +1,30 @@
+.country-flag {
+  width: 12px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.entry {
+  min-width: 190px;
+  max-width: 300px;
+  padding: 0 !important;
+  margin: 10px !important;
+}
+
+.md-title {
+  word-break: break-word;
+  margin-top: 0 !important;
+}
+
+.small-badge {
+  margin: 2px;
+}
+
+.fill {
+  margin: 0;
+  padding: 0 15px;
+}
+
+.grow {
+  flex-grow: 1;
+}

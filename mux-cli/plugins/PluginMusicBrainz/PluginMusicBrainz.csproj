@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>ch.wuerth.tobias.mux.plugins.PluginMusicBrainz</AssemblyName>
+    <RootNamespace>ch.wuerth.tobias.mux.plugins.PluginMusicBrainz</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/tobiaswuerth/mux-cli/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>Tobias Würth</Copyright>
+    <PackageProjectUrl>https://github.com/tobiaswuerth/mux-cli</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tobiaswuerth/mux-cli</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ch.wuerth.tobias.mux.Core" Version="1.3.2" />
+    <PackageReference Include="ch.wuerth.tobias.mux.Data" Version="1.3.1" />
+    <PackageReference Include="ch.wuerth.tobias.occ.Hasher" Version="1.0.0" />
+    <PackageReference Include="ch.wuerth.tobias.occ.ObjectContentComparator" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
